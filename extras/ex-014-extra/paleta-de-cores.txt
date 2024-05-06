@@ -1,0 +1,4 @@
+cor 1 - #654E70
+cor 2 - #8E4BAD
+cor 3 - #B02BED
+cor 4 - #BDED2B

@@ -1,0 +1,31 @@
+@charset "UTM-8";
+
+@font-face {
+    font-family: PixelifySans;
+    src: url(fontes/PixelifySans-VariableFont_wght.ttf);
+}
+
+img {
+    width: 600px;
+}
+
+body {
+    background-color: #332224;
+    border-radius: 10px;
+    color: white;
+    font-family: 'PixelifySans';
+    font-size: 16px;
+
+h1 {
+    background-color: #B11D31;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 600px;
+}
+
+p {
+    width: 600px;
+    text-align: left;
+}
+}

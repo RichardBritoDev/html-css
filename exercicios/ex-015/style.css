@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+        body {
+            background-color: rgb(217, 255, 0);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+        }
+
+       h1 {
+        color: rgb(117, 72, 148);
+        background-color: rgb(0, 255, 234);
+        }
+
+        h2 {
+            color: #0d8a79;
+        }
+
+        p {
+            text-align: justify;
+        }
+   

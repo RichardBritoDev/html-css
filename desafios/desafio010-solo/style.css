@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: IDrond;
+    src: url(desafio010/fontes/idroid.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(145, 204, 181);
+}
+
+header {
+    background-image: linear-gradient(rgb(118, 235, 118), rgb(31, 112, 31));
+
+
+    #titulo {
+        text-align: center;
+        color: white;
+        padding: 30px 30px 10px 30px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
+    }
+
+    #pprincipal {
+        text-align: center;
+        color: white;
+        padding: 0px 30px 30px 30px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
+    }    
+
+    nav {
+        padding-bottom: 10px;
+    }
+
+    nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    nav > a:hover {
+        background-color: rgb(94, 165, 94);
+        padding: 10px;
+        border-radius: 5px;
+        margin: 0px;
+        color: rgb(12, 102, 12);
+    }
+
+    margin: -20px -10px 0px -10px;
+}
+
+main {
+    h1 {
+        font-family: IDroid;
+        color: green;
+        font-size: 2em;
+    }
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+
+    h2 {
+        font-family: IDroid;
+        color: green;
+        background-image: linear-gradient(to right, rgba(37, 143, 37, 0.404), white);
+        padding: 3px;
+        padding-left: 10px;
+    }
+
+    p > a {
+        color: green;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .importantes {
+            font-weight: bold;
+            color: green;
+            text-decoration: none;
+            background-color: rgba(41, 110, 78, 0.397);
+            padding: 4px;
+    }
+
+    p > a:hover {
+        text-decoration-line: underline;
+    }
+
+    img {
+        text-align: center;
+    }
+
+    .imagens {
+        text-align: center;
+    }
+
+    #video {
+        text-align: center;
+        background-color: rgb(70, 148, 89);
+        padding: 30px 0px 30px 0px;
+        margin: 0px -20px 0px -20px;
+    }
+
+    box-shadow: 0px 0px 5px black;
+
+    p {
+        text-align:justify ;
+    }
+
+    #article {
+        columns: 2;
+    }
+
+}
+
+#extra {
+    background-color: rgb(177, 230, 177);
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+#pextra {
+    background-color: rgb(34, 163, 92);
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin: 20px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#extra > a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#extra > a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(50, 104, 83);
+    padding: 1px 1px 1px 1px;
+    margin-top: 20px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    color: white;
+}

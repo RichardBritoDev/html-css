@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    background-color: rgb(31, 41, 75);
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+header {
+    background-color: rgb(208, 255, 0);
+    border-radius: 10px;
+}
+
+#link01:hover {
+    background-color: white;
+    padding: 4px;
+}
+#link02:hover {
+    background-color: white;
+    padding: 4px;
+}
+#link03:hover {
+    background-color: white;
+    padding: 4px;
+}
+#link04:hover {
+    background-color: white;
+    padding: 4px;
+}
+#link05:hover {
+    background-color: white;
+    padding: 4px;
+}
+
+nav > a {
+    color: black;
+    margin-right: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+nav {
+    background-color: rgb(204, 49, 204);
+    padding: 5px;
+}
+
+
+.artigo {
+    background-color: rgba(208, 255, 0, 0.747);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(204, 49, 204);
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 4px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#instagram:hover {
+    color: white;
+}
+
+#instagram {
+    text-decoration: none;
+    color: black;
+}

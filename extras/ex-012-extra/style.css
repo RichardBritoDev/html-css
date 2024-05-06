@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(162, 0, 255), rgb(25, 185, 172));
+    color: white;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 10px;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover {
+    color: purple;
+    border-radius: 5px;
+}
+
+
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: purple; border-radius: 5px;
+}
+
+#principal {
+    text-align: center;
+    background-color: rgba(221, 38, 221, 0.219); border-radius: 5px;
+}
+
+.secundario {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    background-color: rgba(163, 52, 163, 0.705); border-radius: 5px;
+}
+

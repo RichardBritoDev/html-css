@@ -1,0 +1,11 @@
+Título 1 - RICHARD BRITO
+
+Explore meu portfólio, sou Richard Brito, um estudante de programação apaixonado por HTML e CSS. Este espaço reflete meu compromisso em aprender e crescer como desenvolvedor front-end, apresentando uma variedade de projetos que vão desde exercícios de codificação até desafios mais complexos. Estou aberto a colaborações e ansioso para compartilhar minha jornada e projetos, convidando você a se juntar a mim neste emocionante mundo da tecnologia.
+
+
+Título 2 - Sobre mim
+
+Sou Richard Brito, um apaixonado por tecnologia de 19 anos, atualmente cursando Sistemas da Computação na UESPI e residindo em Parnaíba, Piauí. Além disso, busco constantemente expandir meu conhecimento e habilidades, tendo completado um curso de full stack no Senai, onde explorei áreas como HTML, CSS, C#, JavaScript, TypeScript e muito mais. Minha jornada na programação é impulsionada pela busca contínua de desafios e oportunidades de aprendizado, e estou entusiasmado para compartilhar minha paixão e progresso neste campo dinâmico e empolgante.
+
+
+
