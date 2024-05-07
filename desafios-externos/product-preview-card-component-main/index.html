@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Product preview card component</title>
 
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-    *{
+    /* font-family: "Montserrat", sans-serif; */
+
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+    /* font-family: "Fraunces", serif; */
+
+    * {
       margin: 0;
       padding: 0;
     }
@@ -19,28 +27,113 @@
       background-color: hsl(30, 38%, 92%);
     }
 
-    main {
-      background-color: hsl(0, 0%, 100%);
-      height: 400px;
-      width: 400px;
-      margin: auto;
+    #container {
+      background-size: 100% 100%;
+      height: 96vh;
+      position: relative;
     }
 
+    #conteudo {
+      background-color: white;
+      height: 500px;
+      width: 320px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-0%, -50%);
+      max-width: 50%;
+      border-radius: 0 10px 10px 0;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+    }
+
+    img {
+      width: 320px;
+      height: 500px;
+      background-size: 100% 100%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-100%, -50%);
+      max-width: 50%;
+      border-radius: 10px 0 0 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+    }
+
+    #conteudo h1 {
+      padding-left: 30px;
+      padding-right: 50px;
+      font-family: "Fraunces", serif;
+      font-size: 30px;
+    }
+
+    #conteudo h3 {
+      padding: 30px 0 20px 30px;
+      font-size: 14px;
+      letter-spacing: 5px;
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif;
+      color: rgba(0, 0, 0, 0.500);
+    }
+
+    #p-principal {
+      padding: 30px 30px 30px 30px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.500);
+    }
+
+    #preco {
+      display: inline-block;
+      padding: 0 10px 30px 30px;
+      font-family: "Fraunces", serif;
+      font-size: 30px;
+      font-weight: bold;
+      color: hsl(158, 36%, 37%);
+    }
+
+    #preco-antigo {
+      display: inline-block;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.500);
+    }
+
+    button {
+      display: block;
+      background-color: hsl(158, 39%, 22%);
+      padding: 15px 80px 15px 80px;
+      border-radius: 10px;
+      border: none;
+      margin: auto;
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    button a {
+      text-decoration: none;
+      color: white;
+    }
   </style>
 </head>
+
 <body>
-  <div>
-    <main>
-      <h1>Perfume</h1>
-      <h2>Gabrielle Essence Eau De Parfum</h2>
-      <p>
-        A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.
+
+  <section id="container">
+    <img src="images/image-product-desktop.jpg" alt="imagem">
+    <article id="conteudo">
+      <h3>PERFUME</h3>
+      <h1>Gabrielle Essence Eau De Parfum</h1>
+      <p id="p-principal">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge Perfumer-Creator for the House of CHANEL.
       </p>
-      <p id="valor">$149.99</p>
-      <p><del>$169.99</del></p>
-      <botton>Add to Cart</botton>
-    </main>
-  </div>
+      <p id="preco">$149.99</p>
+      <p id="preco-antigo"><del>$169.99</del></p>
+      <button> <a href="#">🛒 Add to Cart</button>
+    </article>
+  </section>
+
 </body>
+
 </html>
