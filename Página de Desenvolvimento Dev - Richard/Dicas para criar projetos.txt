@@ -1,0 +1,17 @@
+DICAS PARA AJUDAR A DESENVOLVER PROJETOS
+
+- Sites de Inspiração {
+CODEPEN, UPLABS, BEHANCE, NIICE, DRIBBBLE, PINTEREST, OUTROS, ...
+}
+
+- Sites para pegar imagens e icones {
+PIXABAY, FLATICON
+}
+
+- Sites para paletas de cores {
+COLOR HUNT, ADOBE COLOR CC, COOLORS, WEBGRADIENTS
+}
+
+- Sites para adquirir fontes {
+ADOBE FONTES, GOOGLE FONTES, DAFONT
+}
